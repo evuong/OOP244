@@ -1,0 +1,8 @@
+1) Why does the copy assignment operator check for self-assignment before doing anything else?
+If it doesn't check then it might delete the data currently held which makes it empty.
+
+2) List examples of how you avoided code duplication.
+I made a function that checks if the phone number is valid so I can always just run that program.
+
+3) List what you have learned in completing this workshop.
+I have learned how to use long long more. Also, I have learned how 'delete' properly to deallocate memory to make room for new. 

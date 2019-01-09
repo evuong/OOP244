@@ -1,0 +1,16 @@
+1) How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+
+However many that the programmer wants for that family or given name +1. The +1 is to account for the null character at the end of the string.
+
+2) Your class declares two member functions named set(...). In C, this would generate an error. Name the feature of C++ that allows this.
+
+The C++ feature that allows this is called function overloading. It works because the program requires different parameters allowing it to know which instance of the function to call.
+
+3) What have you learned in completing this workshop?
+
+I have learned how to validate a SIN number. 
+
+
+
+Quiz 3 Reflection:
+I got 100%.

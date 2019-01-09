@@ -1,0 +1,44 @@
+1. What is a namespace? Explain its purpose.
+A namespace is a scope definition that defines a block of code. Its purpose is to prevent conflict of similar variable names within a program.
+
+2. Why are header files needed? Explain.
+Header files are used to create the prototypes of a function. Prototypes are used to declare a function and its parameters. 
+
+3. In the instructions above, you were directed to compile only .cpp files but
+not the .h files. Explain why you don’t compile header files.
+Header files do not have any running code. They only have declarations and prototypes. They cannot compile whereas .cpp files contain a main and code. 
+
+4. Explain why you should never include .cpp files in another file.
+Because when a source file (.cpp) is included, it basically copies that code into the main run program. It copies the definitions more than once and can lead to duplication and linking errors.  
+
+5. Explain in your own words what have you learned on this workshop.
+I learned how to create my own namespaces. How to enclose blocks of code into them and then declare that I am using them. 
+
+
+Quiz 1 Reflection:
+
+1. The header file that must be included while using cout function in a C++ program is- 
+WRONG ANSWER: using namespace std
+REVISED ANSWER: #include <cstdio>
+
+2. The variable that contains address of another variable is called as-
+WRONG ANSWER: structure class
+REVISED ANSWER: pointer
+
+3. What are the main characteristics of objective oriented programming?
+WRONG ANSWER: programming based on using objectives to clearly define goals
+REVISED ANSWER: the main characteristics are encapsulation, inheritance and polymorphism
+
+4. Why namespace is important?
+WRONG ANSWER: it helps to define scope
+RIGHT ANSWER: it helps to define scope so that naming conflicts of similar variables doesn't happen
+
+5. A module named "computer" should have the files named?
+WRONG ANSWER: .cpp
+RIGHT ANSWER: computer.h
+
+8. Modules implementation file defines function prototypes. T/F
+WRONG ANSWER: T
+RIGHT ANSWER: F
+
+

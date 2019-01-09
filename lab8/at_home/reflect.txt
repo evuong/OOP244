@@ -1,0 +1,11 @@
+1. What is the difference between an abstract base class and a concrete class?
+An abstract base class is a class that defines an interface whereas a concrete class is a derived class that implements the interface.
+
+2. Identify the functions that shadow functions of the same name in your solution?
+credit and debit functions are shadowed.
+
+3. Explain what have you learned in this workshop.
+I have learned how to set up a hierarchy and how to use abstract base classes and concrete classes for polymorphism.
+
+QUIZ REFLECTION:
+n/a

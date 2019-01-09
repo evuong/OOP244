@@ -1,0 +1,23 @@
+1. The operator+ returns a Fraction object. Explain why this operator should not return a reference to a Fraction object.
+The operator does not return a Fraction reference because it is a post-fix operator. This returns a copy of the current object before any of the changes take place, since the original data is not to be modified. 
+
+
+2. List the temporary objects in the w5_at_home.cpp main module.
+There are many temporary objects such as:(a+b).display, (b+d).display, (b+=d).display, etc.
+
+3. List the simplifications that you made to your class to minimize code duplication.
+In the overloaded operator functions, I made simplifications by calling a previous overloaded operator function. For example, in the != operator, I used the == operator and so on.
+
+4. Explain what you have learned in this workshop.
+I have learned how to use overloaded operators and what their purpose is for.
+
+
+
+QUIZ 5 REFLECTION
+1. 
+WRONG ANSWER: void test+=()
+REVISED ANSWER: Type& operator += (Type&)
+
+2.
+WRONG ANSWER: 0
+RIGHT ANSWER: 2

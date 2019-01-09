@@ -1,0 +1,23 @@
+1) What is a safe empty state? Could you define a safe empty state that differs from the empty state that you defined?
+Empty safe state is setting a variable to 0 or another state that wont be undefined. Setting it null can also work in some cases, such as a char array. 
+
+2) Identify the parts of your source code where to minimized code duplication.
+If statements are the same in some parts.
+
+3) The canTravelWith(...) member function accesses the private data of the
+object referenced in its parameter. Explain why C++ allows this access.
+The parameter for canTravelWith is a copy of the Passenger address. This allows to access the private parts of the class.
+
+4) What statement did you add to ensure that the strncpy(...) function exe-
+cutes correctly?
+The string length minus 1 at the end.
+
+5) Explain what you have learned in this workshop.
+I learned how to use this and *this properly.
+
+
+QUIZ 4 REFLECTION
+
+2. List two operators that cannot be overloaded.
+WRONG ANSWER: constructor and destructor
+REVISED ANSWER: scope resolution (::) and member selection (.)
